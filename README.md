@@ -5,7 +5,6 @@ To write a program to implement the SVM For Spam Mail Detection.
 
 ## Equipments Required:
 1. Hardware – PCs
-   
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm:
@@ -15,7 +14,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 4. Fit the data in the model and run the algorithm
    
 ## Program:
-```
+~~~
 /*
 Program to implement the SVM For Spam Mail Detection.
 Developed by: DHARSHINI K
@@ -57,7 +56,7 @@ print(y_pred)
 from sklearn import metrics
 accuracy = metrics.accuracy_score(y_test,y_pred)
 print(accuracy)   
-```
+~~~
 
 ## Output:
 # result
